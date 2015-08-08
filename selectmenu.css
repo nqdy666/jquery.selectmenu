@@ -1,0 +1,70 @@
+.selectmenu{
+    position:relative;
+    z-index:10;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:middle;
+}
+.selectmenu .select{
+    width:150px;
+    position:absolute;
+    top:-999999px;
+}
+.selectmenu .title{
+    position:relative;
+}
+.selectmenu .text{
+    height:35px;line-height:35px;
+    font-size:12px;
+    color:#717071;
+    padding:0 45px 0 10px;
+    border:1px solid #c8c9ca;
+    white-space:nowrap;
+    cursor:default;
+}
+.selectmenu .ico{
+    width:35px;height:35px;
+    position:absolute;
+    background:url(./selectmenu.png) no-repeat;
+    top:1px;right:1px;
+    cursor:default;
+}
+.selectmenu .active{
+    background:url(./selectmenu.png) no-repeat 0 100%;
+}
+
+.selectmenu ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.selectmenu .list{
+    width:100%;
+    position:absolute;
+    top:37px;left:0;
+    background:#f3fafd;
+    display:none;
+    overflow:auto;
+    max-height:150px;
+}
+.selectmenu .list li{
+    heigt:35px;line-height:35px;
+    text-indent:10px;
+    font-size:12px;
+    color:#717071;
+    display:block;
+    background:#f3fafd;
+    border-top:1px solid #e6e6e6;
+    cursor:default;
+}
+.selectmenu .list li:hover{
+    background:#fcf2e7;
+}
+.selectmenu .list li:first-child{
+    border-top-width:0;
+}
