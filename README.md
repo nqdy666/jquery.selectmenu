@@ -5,10 +5,12 @@
 jquery-1.11.2.min.js
 jquery.mousewheel.min.js
 ### 使用
+```
 引用css
-`<link rel="stylesheet" type="text/css" href="selectmenu.css"/>`
+<link rel="stylesheet" type="text/css" href="selectmenu.css"/>
 引用js
-`<script type="text/javascript" src="jquery.selectmenu.js"></script>`
+<script type="text/javascript" src="jquery.selectmenu.js"></script>
+```
 ### 基本方法
 ```
 <select class='select' id="mySelect">
